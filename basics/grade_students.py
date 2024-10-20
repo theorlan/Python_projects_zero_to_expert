@@ -3,7 +3,7 @@ grade = 0
 
 while grade != -1:
   grade = float(input("Please enter the student's grade or enter -1 to exit the program: "))
-  
+
   #Check a valid value.
   if grade < -1:
     grade = float(input("Please enter the student's grade or enter -1 to exit the program: "))
@@ -15,7 +15,7 @@ while grade != -1:
     elif grade >= 80:
       print("The student got an B")
 
-    elif grade >= 70
+    elif grade >= 70:
       print("The student got an C")
 
     elif grade >= 60:
